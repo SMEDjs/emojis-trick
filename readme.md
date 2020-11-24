@@ -12,24 +12,21 @@ Exemple:
 const EmojisTrick = require('emojis-trick')
 
 // generate random emojis 
-EmojisTrick.generate({count:5, repeat: false}) // count: number of emojis ; repeat: repeat emojis
+EmojisTrick.generate({count:5, repeat: false, type: "char"}) // count: number of emojis ; repeat: repeat emojis
+// Type: "codes" => 1F600, "char" => 😀, "name" => grinning face
 
 ```
 
 Exemple of json:
 ```
-  {
-    "name": "Face",
-    "nameUrl": "face-with-tongue",
-    "emoji": "",
-    "unicode": "U+1F61B",
-    "categorie": "face",
-    "color": "yellow",
-    "shortNames": [
-      "\",
-      ":face_with_tongue:"
-    ]
-  },
+{
+    "codes": "1F600",
+    "char": "😀",
+    "name": "grinning face",
+    "category": "Smileys & Emotion (face-smiling)",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+ },
 ```
 #### Developer notes
 
