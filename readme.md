@@ -35,3 +35,5 @@ Exemple of json:
 
 #### Developer
 - [SMED#8517](https://github.com/SMEDjs)
+
+##### Current Version 1.0.1 
