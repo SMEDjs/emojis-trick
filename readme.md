@@ -36,4 +36,8 @@ Exemple of json:
 #### Developer
 - [SMED#8517](https://github.com/SMEDjs)
 
-##### Current Version 1.0.1 
+##### Current Version 1.0.1
+##### Patch note:
+- v1.0.0 : release
+- v1.0.1 : added type
+
