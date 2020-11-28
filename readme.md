@@ -8,12 +8,15 @@
 #### Use
 
 Exemple:
+
+Generate functio, the options:
+Count: number of emojis you want
+Repeat: Boolean to enable repetition between emojis
+Type: "codes" => 1F600, "char" => 😀, "name" => grinning face
 ```
 const EmojisTrick = require('emojis-trick')
 
-// generate random emojis 
-EmojisTrick.generate({count:5, repeat: false, type: "char"}) // count: number of emojis ; repeat: repeat emojis
-// Type: "codes" => 1F600, "char" => 😀, "name" => grinning face
+EmojisTrick.generate({count:5, repeat: false, type: "char"}) 
 
 ```
 
